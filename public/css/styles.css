@@ -1,0 +1,48 @@
+/* Custom Navbar styling */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Product card styling */
+  #product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card {
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #2d2d2d;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Fruits and Vegetables</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    /* Media Queries for Responsiveness */
+    @media (max-width: 767px) {
+      .navbar-brand {
+        font-size: 1.2rem;
+      }
+      .card-title {
+        font-size: 1rem;
+      }
+      .card-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Extra small devices */
+    @media (max-width: 575px) {
+      .card {
+        margin-bottom: 15px;
+      }
+      .container {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fresh Produce</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fruits">Fruits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#vegetables">Vegetables</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="help.html">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="bg-success text-white text-center py-3">
+    <h1>Welcome to Fresh Fruits & Vegetables</h1>
+    <p>Your one-stop shop for farm-fresh produce</p>
+  </header>
+
+  <!-- Main Content Section -->
+  <main class="container my-5">
+    <!-- Fruits Section -->
+    <section id="fruits" class="mb-5">
+      <h2 class="text-success mb-4">Fresh Fruits</h2>
+      <div class="row">
+        <!-- Apple -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1570568995-3bfb32147429" class="card-img-top" alt="Apple">
+            <div class="card-body text-center">
+              <h5 class="card-title">Apple</h5>
+              <p class="card-text">₹149 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Banana -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1581402990671-411ea4329c68" class="card-img-top" alt="Banana">
+            <div class="card-body text-center">
+              <h5 class="card-title">Banana</h5>
+              <p class="card-text">₹79 / dozen</p>
+            </div>
+          </div>
+        </div>
+        <!-- Orange -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1589403910179-0bc5e0b938dd" class="card-img-top" alt="Orange">
+            <div class="card-body text-center">
+              <h5 class="card-title">Orange</h5>
+              <p class="card-text">₹99 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Mango -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1568624313-66be9fc626c6" class="card-img-top" alt="Mango">
+            <div class="card-body text-center">
+              <h5 class="card-title">Mango</h5>
+              <p class="card-text">₹180 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Guava -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1587300281424-2d48b322fb29" class="card-img-top" alt="Guava">
+            <div class="card-body text-center">
+              <h5 class="card-title">Guava</h5>
+              <p class="card-text">₹99 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Papaya -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1603947378972-94052f5fe828" class="card-img-top" alt="Papaya">
+            <div class="card-body text-center">
+              <h5 class="card-title">Papaya</h5>
+              <p class="card-text">₹40 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pineapple -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1623137522640-24b3b9ca56f2" class="card-img-top" alt="Pineapple">
+            <div class="card-body text-center">
+              <h5 class="card-title">Pineapple</h5>
+              <p class="card-text">₹120 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Custard Apple -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1561459682-1bb5c5b819dd" class="card-img-top" alt="Custard Apple">
+            <div class="card-body text-center">
+              <h5 class="card-title">Custard Apple</h5>
+              <p class="card-text">₹160 / kg</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vegetables Section -->
+    <section id="vegetables">
+      <h2 class="text-success mb-4">Fresh Vegetables</h2>
+      <div class="row">
+        <!-- Broccoli -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1578870692294-4502284912b7" class="card-img-top" alt="Broccoli">
+            <div class="card-body text-center">
+              <h5 class="card-title">Broccoli</h5>
+              <p class="card-text">₹120 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Carrot -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1586301148669-dc1b12992864" class="card-img-top" alt="Carrot">
+            <div class="card-body text-center">
+              <h5 class="card-title">Carrot</h5>
+              <p class="card-text">₹80 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Spinach -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1562914101-4973a58f30b0" class="card-img-top" alt="Spinach">
+            <div class="card-body text-center">
+              <h5 class="card-title">Spinach</h5>
+              <p class="card-text">₹60 / bunch</p>
+            </div>
+          </div>
+        </div>
+        <!-- Lettuce -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1615293741033-91d95e7d0f83" class="card-img-top" alt="Lettuce">
+            <div class="card-body text-center">
+              <h5 class="card-title">Lettuce</h5>
+              <p class="card-text">₹40 / head</p>
+            </div>
+          </div>
+        </div>
+        <!-- Potato -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1603428110353-4f2a56c98d13" class="card-img-top" alt="Potato">
+            <div class="card-body text-center">
+              <h5 class="card-title">Potato</h5>
+              <p class="card-text">₹40 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Tomato -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1603428110353-4f2a56c98d13" class="card-img-top" alt="Tomato">
+            <div class="card-body text-center">
+              <h5 class="card-title">Tomato</h5>
+              <p class="card-text">₹40 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Onion -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1603944184780-efdd91e3ff43" class="card-img-top" alt="Onion">
+            <div class="card-body text-center">
+              <h5 class="card-title">Onion</h5>
+              <p class="card-text">₹60 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Cauliflower -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1590527299331-fc50a79e43a6" class="card-img-top" alt="Cauliflower">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cauliflower</h5>
+              <p class="card-text">₹50 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Okra (Lady Finger) -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1590527299331-fc50a79e43a6" class="card-img-top" alt="Okra">
+            <div class="card-body text-center">
+              <h5 class="card-title">Okra (Lady Finger)</h5>
+              <p class="card-text">₹80 / kg</p>
+            </div>
+          </div>
+        </div>
+        <!-- Bitter Gourd -->
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1590527299331-fc50a79e43a6" class="card-img-top" alt="Bitter Gourd">
+            <div class="card-body text-center">
+              <h5 class="card-title">Bitter Gourd</h5>
+              <p class="card-text">₹70 / kg</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="bg-success text-white text-center py-3 mt-5">
+    <p>&copy; 2023 Fresh Fruits & Vegetables. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section with Buttons -->
+  <header class="bg-success text-white text-center py-3">
+    <div class="container">
+      <div class="d-flex justify-content-start">
+        <!-- Back to Home Button in Gray -->
+        <a href="/" class="btn btn-secondary me-3">Back to Home</a>
+        <!-- Back to Help Button in Gray -->
+        <a href="help.html" class="btn btn-secondary">Back to Help</a>
+      </div>
+    </div>
+    <h1 class="mt-4">Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+  </header>
+
+  <!-- Main Content Section -->
+  <main class="container my-5">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions or need assistance, feel free to reach out to us using the contact form below or through any of the methods listed. We're here to help!</p>
+    
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <h3>Contact Form</h3>
+        <form action="#" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-md-6">
+        <h3>Our Contact Details</h3>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:support@freshfruits.com">support@freshfruits.com</a></li>
+          <li><strong>Phone:</strong> +1 234 567 890</li>
+          <li><strong>Address:</strong> 123 Fresh Lane, Green City, XYZ Country</li>
+          <li><strong>Business Hours:</strong> Monday - Friday: 9:00 AM - 6:00 PM</li>
+        </ul>
+        
+        <!-- Map Section -->
+        <h3>Find Us Here</h3>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.436332118874!2d106.63823541487526!3d10.762622897774986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ebedc2d9d89%3A0xa7e6e77599efcb49!2sHo%20Chi%20Minh%20City%20People%27s%20Committee!5e0!3m2!1sen!2s!4v1646644068043!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="bg-success text-white text-center py-3">
+    <p>&copy; 2023 Fresh Fruits & Vegetables. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
